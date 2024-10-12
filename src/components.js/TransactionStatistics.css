@@ -1,0 +1,39 @@
+.transaction-statistics {
+    width: 100%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.transaction-statistics h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.statistic-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.statistic-item:last-child {
+    border-bottom: none;
+}
+
+.statistic-item span {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.statistic-item span:first-child {
+    color: #555;
+}
+
+.statistic-item span:last-child {
+    color: #007bff;
+}
+
